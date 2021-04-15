@@ -3,6 +3,7 @@ import Table from './components/table';
 import Filterdropdown from './components/filter';
 import React from 'react';
 import axios from 'axios';
+import './app.css';
 
 // import Apicall from './components/apiCall';
 class App extends React.Component {

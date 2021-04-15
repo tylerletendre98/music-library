@@ -7,11 +7,11 @@ class Table extends Component{
             <table className="table">
             <thead>
               <tr>
-                <th className="music-title">title</th>
-                <th className="music-album">album</th>
-                <th className="music-artist">artist</th>
-                <th className="music-genre">genre</th>
-                <th className="music-release-date">release date</th>
+                <th className="music-title">Title</th>
+                <th className="music-album">Album</th>
+                <th className="music-artist">Artist</th>
+                <th className="music-genre">Genre</th>
+                <th className="music-release-date">Release Date</th>
               </tr>
             </thead>
             <tbody>
