@@ -1,0 +1,10 @@
+select{
+    background-color: green;
+}
+option{
+    background-color: green;
+}
+input{
+    background-color: white;
+    width: 300px;
+}

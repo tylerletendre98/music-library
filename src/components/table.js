@@ -4,7 +4,7 @@ import './table.css'
 class Table extends Component{
     render(){
         return this.props.songs.map((songs)=> (
-            <table className="table">
+            <table className="table" key={songs.id}>
             <thead>
               <tr>
                 <th className="music-title">Title</th>
