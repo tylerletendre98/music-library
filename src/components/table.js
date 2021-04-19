@@ -3,8 +3,8 @@ import './table.css'
 
 class Table extends Component{
     render(){
-        return this.props.songs.map((songs)=> (
-            <table className="table" key={songs.id}>
+        return (
+      <table className="table">
             <thead>
               <tr>
                 <th className="music-title">Title</th>
@@ -15,16 +15,17 @@ class Table extends Component{
               </tr>
             </thead>
             <tbody>
+              {this.props.songs.map((songs)=>(
               <tr>
                 <td>{songs.title}</td>
                 <td>{songs.album}</td>
                 <td>{songs.artist}</td>
                 <td>{songs.genre}</td>
                 <td>{songs.releaseDate}</td>
-              </tr>
+              </tr>))}
             </tbody>
           </table>
-        ));
+        );
     }
 }
 

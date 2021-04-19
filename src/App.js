@@ -23,7 +23,13 @@ class App extends React.Component {
   
   render(){
     const filtersongs = this.state.songs.filter(el =>{
-      return el.title.toLowerCase().includes(this.state.searchBox)
+      return( 
+        el.title.toLowerCase().includes(this.state.searchBox)||
+        el.album.toLowerCase().includes(this.state.searchBox)||
+        el.artist.toLowerCase().includes(this.state.searchBox)||
+        el.genre.toLowerCase().includes(this.state.searchBox)||
+        el.releaseDate.toLowerCase().includes(this.state.searchBox)
+        )
     })
      return (
     <div className="app">
