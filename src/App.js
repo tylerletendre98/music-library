@@ -13,7 +13,7 @@ class App extends React.Component {
   }
   
   componentDidMount(){
-      axios.get('http://www.devcodecampmusiclibrary.com/api/music')
+      axios.get('http://localhost:5000/api/songs')
         .then(res => this.setState({ songs : res.data}))
   }
 
