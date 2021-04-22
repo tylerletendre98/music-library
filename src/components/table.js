@@ -4,6 +4,7 @@ import './table.css'
 class Table extends Component{
     render(){
         return (
+      <div>
       <table className="table">
             <thead>
               <tr>
@@ -25,6 +26,7 @@ class Table extends Component{
               </tr>))}
             </tbody>
           </table>
+      </div>
         );
     }
 }

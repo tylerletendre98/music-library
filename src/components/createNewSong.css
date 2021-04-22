@@ -1,0 +1,17 @@
+.container{
+    border-color: lightgreen;
+    border-width: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.form-head{
+    color:lightgreen;
+    text-align: center;
+}
+button{
+    color:black;
+    background-color: lightgreen;
+    width: 100px;
+    margin-left: 15px;
+
+}

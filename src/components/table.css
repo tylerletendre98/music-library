@@ -9,3 +9,13 @@ table td{
     color: white;
     font-family: cursive;
 }
+form label{
+    color:white;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+input{
+    color: white;
+    border-color: lightgreen;
+}

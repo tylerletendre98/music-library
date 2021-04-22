@@ -1,6 +1,7 @@
 import Title from './components/title';
 import Table from './components/table';
 import SearchBox from './components/filter';
+import CreateSong from './components/createNewSong';
 import React from 'react';
 import axios from 'axios';
 import './app.css';
@@ -14,7 +15,7 @@ class App extends React.Component {
   
   componentDidMount(){
       axios.get('http://localhost:5000/api/songs')
-        .then(res => this.setState({ songs : res.data}))
+        .then(res => this.setState({ songs : res.data}));
   }
 
   onSearchBoxChange = (e)=> {
@@ -35,6 +36,7 @@ class App extends React.Component {
     <div className="app">
     <Title />
     <SearchBox  searchBoxChange={this.onSearchBoxChange}/>
+    <CreateSong/>
     <Table songs={filtersongs}/>
     </div>
 
