@@ -28,7 +28,7 @@ class CreateSong extends Component{
         return(
             <div className ="container">
                 <div className='form-head'>
-                    <h4>Create a new song below</h4>
+                    <h4>Create a new song: </h4>
                 </div>
                 <div>
                     <form action="create-new-song" onSubmit={this.submitHandler}>

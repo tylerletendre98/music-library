@@ -3,6 +3,9 @@
     border-width: 5px;
     margin-bottom: 15px;
     margin-top: 15px;
+    display: block;
+    align-items: center;
+    
 }
 .form-head{
     color:lightgreen;

@@ -30,7 +30,7 @@ class App extends React.Component {
         el.artist.toLowerCase().includes(this.state.searchBox)||
         el.genre.toLowerCase().includes(this.state.searchBox)||
         el.releaseDate.toLowerCase().includes(this.state.searchBox)
-        )
+      )
     })
      return (
     <div className="app">

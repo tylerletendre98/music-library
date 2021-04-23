@@ -8,7 +8,10 @@ table td{
     text-align: center;
     color: white;
     font-family: cursive;
+    border-color: lightgreen;
 }
-button{
-    margin-top: 5px;
+button.delete-button{
+     margin: auto;
+    display: block; 
+    margin-top: 10px;
 }
